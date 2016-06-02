@@ -1,0 +1,45 @@
+﻿生成启动时间为 2016/3/16 16:47:53。
+     1>项目“C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\3-4train2.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug.win32\3-4train2.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\audio\include" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\external" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\external\chipmunk\include\chipmunk" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\extensions" /I..\Classes /I.. /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\cocos\editor-support" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\cocos" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\cocos\platform" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\cocos\platform\desktop" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\external\glfw3\include\win32" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\external\freetype2\include\win32\\" /I"d:\Cocos\frameworks\cocos2d-x-3.7.1\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt GameScene.cpp
+         GameScene.cpp
+     1>c:\users\administrator\desktop\cocos\cocosprojects\3-4train2\proj.win32\gamescene.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\desktop\cocos\cocosprojects\3-4train2\proj.win32\gamescene.cpp(351): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\administrator\desktop\cocos\cocosprojects\3-4train2\proj.win32\gamescene.cpp(364): warning C4305: “参数”: 从“double”到“float”截断
+     1>c:\users\administrator\desktop\cocos\cocosprojects\3-4train2\proj.win32\gamescene.cpp(426): warning C4996: 'cocos2d::CCRectMake': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.7.1\cocos\deprecated\ccdeprecated.h(390) : 参见“cocos2d::CCRectMake”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       PreLinkEvent:
+         if not exist "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\" mkdir "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\"
+         xcopy /Y /Q "d:\Cocos\frameworks\cocos2d-x-3.7.1\prebuilt\win32\*.*" "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\3-4train2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\\" /LIBPATH:"C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\3-4train2.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\3-4train2.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\main.obj
+         Debug.win32\RoleSprite.obj
+         Debug.win32\SplashScene.obj
+         Debug.win32\SpriteResource.obj
+         Debug.win32\TouchSprite.obj
+         3-4train2.vcxproj -> C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\3-4train2.exe
+       CustomBuildStep:
+         Description: Performing Custom Build Step
+         if not exist "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\" mkdir "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\"
+         xcopy "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\..\Resources" "C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         复制了 0 个文件
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\3-4train2.tlog\unsuccessfulbuild”。
+         正在对“Debug.win32\3-4train2.tlog\3-4train2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Cocos\CocosProjects\3-4train2\proj.win32\3-4train2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.05
